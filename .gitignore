@@ -1,2 +1,4 @@
 /obj
 /bin
+/test/Gradebook.Tests/obj
+/test/Gradebook.Tests/bin
