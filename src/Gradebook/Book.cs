@@ -9,7 +9,7 @@ namespace Gradebook
     public Book(string name)
     {
       grades = new List<double>();
-      this.name = name;
+      this.Name = name;
     }
     public void AddGrade(double grade)
     {
@@ -24,14 +24,14 @@ namespace Gradebook
 
       foreach (double grade in grades)
       {
-        result.HighValue = Math.Max(grade, result.HighValue.);
+        result.HighValue = Math.Max(grade, result.HighValue);
         result.LowValue = Math.Min(grade, result.LowValue);
         result.Average += grade;
-
-        result.Average /= grades.Count;
       }
+        result.Average /= grades.Count;
+        return result;
     }
     private List<double> grades;
-    private string name;
+    public string Name;
   }
 }
