@@ -1,4 +1,6 @@
-/obj
-/bin
-/test/Gradebook.Tests/obj
-/test/Gradebook.Tests/bin
+src/Gradebook/obj
+src/Gradebook/bin
+test/Gradebook.Tests/obj
+test/Gradebook.Tests/bin
+bin
+obj
