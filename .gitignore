@@ -4,3 +4,4 @@ test/Gradebook.Tests/obj
 test/Gradebook.Tests/bin
 bin
 obj
+/.vs/gradebook/v16/Server/sqlite3
